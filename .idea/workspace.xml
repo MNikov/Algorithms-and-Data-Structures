@@ -25,8 +25,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.queue_implementation">
-    <configuration name="duplicates_in_array (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.max_in_stack">
+    <configuration name="max_in_stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-and-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -34,11 +34,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview_Questions_Arrays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stacks/Interview_Questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview_Questions_Arrays/duplicates_in_array.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Mimo\Documents\GitHub\Algorithms-and-Data-Structures\Stacks\Interview_Questions\max_in_stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.max_in_stack" />
         <item itemvalue="Python.queue_implementation" />
         <item itemvalue="Python.stack_implementation" />
         <item itemvalue="Python.reverse_linked_list" />
         <item itemvalue="Python.middle_node_search" />
-        <item itemvalue="Python.duplicates_in_array (1)" />
       </list>
     </recent_temporary>
   </component>
