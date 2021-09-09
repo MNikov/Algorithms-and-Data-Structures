@@ -140,11 +140,11 @@ class AVLTree:
             # right rotation on grandparent (used also in left-left heavy case)
             self.__rotate_right(node)
 
-        # right heavy tree, could be left_right or right-right heavy
+        # right heavy tree, could be left-right or right-right heavy
         if balance < -1:
             # right-left heavy case: right rotation before a left one
             if self.__calc_balance(node.right_child) > 0:
-                self.__rotate_tight(node.right_child)
+                self.__rotate_right(node.right_child)
 
             # left rotation on grandparent (used also in right-right heavy case)
             self.__rotate_left(node)
