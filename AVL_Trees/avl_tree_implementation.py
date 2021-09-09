@@ -23,13 +23,13 @@ class AVLTree:
                 self.__insert_node(data, node.left_child)
             else:
                 node.left_child = Node(data, node)
-                node.height = max(self.__calc_height(node.left_child), self.__calc_hegiht(node.right_child)) + 1
+                node.height = max(self.__calc_height(node.left_child), self.__calc_height(node.right_child)) + 1
         else:
             if node.right_child:
                 self.__insert_node(data, node.right_child)
             else:
                 node.right_child = Node(data, node)
-                node.height = max(self.__calc_height(node.left_child), self.__calc_hegiht(node.right_child)) + 1
+                node.height = max(self.__calc_height(node.left_child), self.__calc_height(node.right_child)) + 1
 
         self.__handle_violation(node)
 
