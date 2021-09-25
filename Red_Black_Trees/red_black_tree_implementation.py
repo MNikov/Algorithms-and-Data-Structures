@@ -19,6 +19,7 @@ class RedBlackTree:
     def insert(self, data):
         if not self.root:
             self.root = Node(data)
+            self.__settle_violation(self.root)
         else:
             self.__insert_node(data, self.root)
 
@@ -94,4 +95,54 @@ class RedBlackTree:
             self.root = temp_right_node
 
     def __settle_violation(self, node):
-        ...
+        while node != self.root and self.__is_red(node) and self.__is_red(node.parent):
+            parent_node = node.parent
+            grandparent_node = parent_node.parent
+
+            # Parent is a left child of its parent
+            if parent_node == grandparent_node.left_child:
+                uncle = grandparent_node.right_child
+
+                # Recolouring
+                if uncle and self.__is_red(uncle):
+                    grandparent_node.colour = Colour.RED
+                    parent_node.colour = Colour.BLACK
+                    uncle.colour = Colour.BLACK
+                    node = grandparent_node
+                else:
+                    # Uncle node is black and node is a right child
+                    if node == parent_node.right_child:
+                        self.__rotate_left(parent_node)
+                        node = parent_node
+                        parent_node = node.parent
+
+                    # If it is not a right child -> rotation on the grandparent + parent and grandparent change colour
+                    parent_node.colour = Colour.BLACK
+                    grandparent_node.colour = Colour.RED
+                    self.__rotate_right(grandparent_node)
+            else:
+                uncle = grandparent_node.left_child
+
+                if uncle and self.__is_red(uncle):
+                    grandparent_node.colour = Colour.RED
+                    parent_node.colour = Colour.BLACK
+                    uncle.colour = Colour.BLACK
+                    node = grandparent_node
+                else:
+                    # Uncle node is black and node is a left child
+                    if node == parent_node.left_child:
+                        self.__rotate_right(parent_node)
+                        node = parent_node
+                        parent_node = node.parent
+
+                    # If it is not a left child -> rotation on the grandparent + parent and grandparent change colour
+                    parent_node.colour = Colour.BLACK
+                    grandparent_node.colour = Colour.RED
+                    self.__rotate_left(grandparent_node)
+
+        if self.__is_red(self.root):
+            self.root.colour = Colour.BLACK
+
+    @staticmethod
+    def __is_red(node):
+        return node.colour == Colour.RED if node else False
