@@ -33,3 +33,15 @@ def depth_first_search_2(start_node):
             if not neighbour.visited:
                 neighbour.visited = True
                 stack.append(neighbour)
+
+
+# Recursive implementation
+# The upper two go to the 'right sleeve' of the directed graph first
+# whereas this one starts with the 'left' one
+def depth_first_search_3(start_node):
+    start_node.visited = True
+    print(start_node.name)
+
+    for neighbour in start_node.adjacency_list:
+        if not neighbour.visited:
+            depth_first_search_3(neighbour)
