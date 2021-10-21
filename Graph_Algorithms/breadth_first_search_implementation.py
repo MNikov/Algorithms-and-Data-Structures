@@ -7,6 +7,7 @@ class Node:
 
 # We start from a given node, check its neighbours
 # and keep on doing that for every one until the queue gets empty
+# The graph is iterated layer by layer
 def breadth_first_search(start_node):
     queue = [start_node]
 
