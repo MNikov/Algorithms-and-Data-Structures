@@ -25,7 +25,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.depth_first_search_implementations">
+  <component name="RunManager" selected="Python.way_out_of_maze">
     <configuration name="breadth_first_search_implementation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-and-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="max_heap_to_min_heap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="way_out_of_maze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-and-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Heaps/Interview_Questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph_Algorithms/Interview_Questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Heaps/Interview_Questions/max_heap_to_min_heap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph_Algorithms/Interview_Questions/way_out_of_maze.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.way_out_of_maze" />
         <item itemvalue="Python.depth_first_search_implementations" />
         <item itemvalue="Python.web_crawler_implementation" />
         <item itemvalue="Python.breadth_first_search_implementation" />
         <item itemvalue="Python.hash_table_implementation" />
-        <item itemvalue="Python.max_heap_to_min_heap" />
       </list>
     </recent_temporary>
   </component>
