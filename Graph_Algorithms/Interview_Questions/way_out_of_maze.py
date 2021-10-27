@@ -41,15 +41,15 @@ class MazeSolver:
         queue.append((r, c, 0))
 
         while queue:
-            r, c, dist = queue.popleft()
+            curr_r, curr_c, dist = queue.popleft()
 
-            if r == end_r and c == end_c:
+            if curr_r == end_r and curr_c == end_c:
                 self.min_distance = dist
                 break
 
             for move in range(4):
-                next_x = r + self.move_x[move]
-                next_y = c + self.move_y[move]
+                next_x = curr_r + self.move_x[move]
+                next_y = curr_c + self.move_y[move]
 
                 if self.is_valid(next_x, next_y):
                     self.visited_cells[next_x][next_y] = True
@@ -66,7 +66,7 @@ m = [
     [1, 1, 1, 1, 1],
     [0, 0, 0, 0, 1],
     [1, 1, 1, 1, 1],
-    [1, 0, 0, 0, 0],
+    [1, 0, 0, 0, 1],
     [1, 1, 1, 1, 1]
 ]
 maze_solver = MazeSolver(m)
