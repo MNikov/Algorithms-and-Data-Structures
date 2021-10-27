@@ -57,7 +57,7 @@ class MazeSolver:
 
     def show_result(self):
         if self.min_distance != float('inf'):
-            print(f'The shortest distance is {self.min_distance}.')
+            print(f'The shortest way out is {self.min_distance}.')
         else:
             print('There is no way out of the maze.')
 
