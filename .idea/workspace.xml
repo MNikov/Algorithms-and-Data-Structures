@@ -33,7 +33,7 @@
       <recent name="C:\Users\Mimo\Documents\GitHub\Algorithms-and-Data-Structures\Graph_Algorithms\Bellman_Ford_Algorithm\Interview_Questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prims_jarnik_algorithm_implementation">
+  <component name="RunManager" selected="Python.bogo_sort_implementation">
     <configuration name="FOREX (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-and-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bellman_ford_algorithm_implementation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bogo_sort_implementation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms-and-Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph_Algorithms/Bellman_Ford_Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorting_Algorithms/Bogo_Sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph_Algorithms/Bellman_Ford_Algorithm/bellman_ford_algorithm_implementation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting_Algorithms/Bogo_Sort/bogo_sort_implementation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bogo_sort_implementation" />
         <item itemvalue="Python.prims_jarnik_algorithm_implementation" />
         <item itemvalue="Python.kruskal_algorithm_implementation" />
         <item itemvalue="Python.FOREX (1)" />
         <item itemvalue="Python.FOREX" />
-        <item itemvalue="Python.bellman_ford_algorithm_implementation" />
       </list>
     </recent_temporary>
   </component>
